@@ -1,0 +1,287 @@
+<feature 
+id="org.jcryptool.core.feature" label="JCrypTool Core Feature" version="1.0.9" provider-name="jcryptool.org" plugin="org.jcryptool.core">
+    <!-- keep this in one line -->
+    <!-- version:this -->
+    <description url="https://github.com/jcryptool/core">
+        The JCrypTool Core Feature contains the core platform plug-ins (the runtime) of JCrypTool.
+    </description>
+    <copyright url="https://github.com/jcryptool/core">
+        Copyright (c) 2011, 2021 JCrypTool Team and Contributors
+All rights reserved. This program and the accompanying materials
+are made available under the terms of the Eclipse Public License
+v1.0 which accompanies this distribution, and is available at
+http://www.eclipse.org/legal/epl-v10.html
+
+Contributors:
+JCrypTool team and contributors - initial API and implementation
+    </copyright>
+    <license url="http://www.eclipse.org/legal/epl-v10.html">
+        Eclipse Public License - v 1.0
+THE ACCOMPANYING PROGRAM IS PROVIDED UNDER THE TERMS OF THIS
+ECLIPSE PUBLIC LICENSE (&quot;AGREEMENT&quot;). ANY USE, REPRODUCTION OR
+DISTRIBUTION OF THE PROGRAM CONSTITUTES RECIPIENT'S ACCEPTANCE
+OF THIS AGREEMENT.
+1. DEFINITIONS
+&quot;Contribution&quot; means:
+a) in the case of the initial Contributor, the initial code and
+documentation distributed under this Agreement, and
+b) in the case of each subsequent Contributor:
+i) changes to the Program, and
+ii) additions to the Program;
+where such changes and/or additions to the Program originate
+from and are distributed by that particular Contributor. A Contribution
+'originates' from a Contributor if it was added to the Program
+by such Contributor itself or anyone acting on such Contributor's
+behalf. Contributions do not include additions to the Program
+which: (i) are separate modules of software distributed in conjunction
+with the Program under their own license agreement, and (ii)
+are not derivative works of the Program.
+&quot;Contributor&quot; means any person or entity that distributes the
+Program.
+&quot;Licensed Patents&quot; mean patent claims licensable by a Contributor
+which are necessarily infringed by the use or sale of its Contribution
+alone or when combined with the Program.
+&quot;Program&quot; means the Contributions distributed in accordance with
+this Agreement.
+&quot;Recipient&quot; means anyone who receives the Program under this
+Agreement, including all Contributors.
+2. GRANT OF RIGHTS
+a) Subject to the terms of this Agreement, each Contributor hereby
+grants Recipient a non-exclusive, worldwide, royalty-free copyright
+license to reproduce, prepare derivative works of, publicly display,
+publicly perform, distribute and sublicense the Contribution
+of such Contributor, if any, and such derivative works, in source
+code and object code form.
+b) Subject to the terms of this Agreement, each Contributor hereby
+grants Recipient a non-exclusive, worldwide, royalty-free patent
+license under Licensed Patents to make, use, sell, offer to sell,
+import and otherwise transfer the Contribution of such Contributor,
+if any, in source code and object code form. This patent license
+shall apply to the combination of the Contribution and the Program
+if, at the time the Contribution is added by the Contributor,
+such addition of the Contribution causes such combination to
+be covered by the Licensed Patents. The patent license shall
+not apply to any other combinations which include the Contribution.
+No hardware per se is licensed hereunder.
+c) Recipient understands that although each Contributor grants
+the licenses to its Contributions set forth herein, no assurances
+are provided by any Contributor that the Program does not infringe
+the patent or other intellectual property rights of any other
+entity. Each Contributor disclaims any liability to Recipient
+for claims brought by any other entity based on infringement
+of intellectual property rights or otherwise. As a condition
+to exercising the rights and licenses granted hereunder, each
+Recipient hereby assumes sole responsibility to secure any other
+intellectual property rights needed, if any. For example, if
+a third party patent license is required to allow Recipient to
+distribute the Program, it is Recipient's responsibility to acquire
+that license before distributing the Program.
+d) Each Contributor represents that to its knowledge it has sufficient
+copyright rights in its Contribution, if any, to grant the copyright
+license set forth in this Agreement.
+3. REQUIREMENTS
+A Contributor may choose to distribute the Program in object
+code form under its own license agreement, provided that:
+a) it complies with the terms and conditions of this Agreement;
+and
+b) its license agreement:
+i) effectively disclaims on behalf of all Contributors all warranties
+and conditions, express and implied, including warranties or
+conditions of title and non-infringement, and implied warranties
+or conditions of merchantability and fitness for a particular
+purpose;
+ii) effectively excludes on behalf of all Contributors all liability
+for damages, including direct, indirect, special, incidental
+and consequential damages, such as lost profits;
+iii) states that any provisions which differ from this Agreement
+are offered by that Contributor alone and not by any other party;
+and
+iv) states that source code for the Program is available from
+such Contributor, and informs licensees how to obtain it in a
+reasonable manner on or through a medium customarily used for
+software exchange.
+When the Program is made available in source code form:
+a) it must be made available under this Agreement; and
+b) a copy of this Agreement must be included with each copy of
+the Program.
+Contributors may not remove or alter any copyright notices contained
+within the Program.
+Each Contributor must identify itself as the originator of its
+Contribution, if any, in a manner that reasonably allows subsequent
+Recipients to identify the originator of the Contribution.
+4. COMMERCIAL DISTRIBUTION
+Commercial distributors of software may accept certain responsibilities
+with respect to end users, business partners and the like. While
+this license is intended to facilitate the commercial use of
+the Program, the Contributor who includes the Program in a commercial
+product offering should do so in a manner which does not create
+potential liability for other Contributors. Therefore, if a Contributor
+includes the Program in a commercial product offering, such Contributor
+(&quot;Commercial Contributor&quot;) hereby agrees to defend and indemnify
+every other Contributor (&quot;Indemnified Contributor&quot;) against any
+losses, damages and costs (collectively &quot;Losses&quot;) arising from
+claims, lawsuits and other legal actions brought by a third party
+against the Indemnified Contributor to the extent caused by the
+acts or omissions of such Commercial Contributor in connection
+with its distribution of the Program in a commercial product
+offering. The obligations in this section do not apply to any
+claims or Losses relating to any actual or alleged intellectual
+property infringement. In order to qualify, an Indemnified Contributor
+must: a) promptly notify the Commercial Contributor in writing
+of such claim, and b) allow the Commercial Contributor to control,
+and cooperate with the Commercial Contributor in, the defense
+and any related settlement negotiations. The Indemnified Contributor
+may participate in any such claim at its own expense.
+For example, a Contributor might include the Program in a commercial
+product offering, Product X. That Contributor is then a Commercial
+Contributor. If that Commercial Contributor then makes performance
+claims, or offers warranties related to Product X, those performance
+claims and warranties are such Commercial Contributor's responsibility
+alone. Under this section, the Commercial Contributor would have
+to defend claims against the other Contributors related to those
+performance claims and warranties, and if a court requires any
+other Contributor to pay any damages as a result, the Commercial
+Contributor must pay those damages.
+5. NO WARRANTY
+EXCEPT AS EXPRESSLY SET FORTH IN THIS AGREEMENT, THE PROGRAM
+IS PROVIDED ON AN &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS
+OF ANY KIND, EITHER EXPRESS OR IMPLIED INCLUDING, WITHOUT LIMITATION,
+ANY WARRANTIES OR CONDITIONS OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY
+OR FITNESS FOR A PARTICULAR PURPOSE. Each Recipient is solely
+responsible for determining the appropriateness of using and
+distributing the Program and assumes all risks associated with
+its exercise of rights under this Agreement , including but not
+limited to the risks and costs of program errors, compliance
+with applicable laws, damage to or loss of data, programs or
+equipment, and unavailability or interruption of operations.
+6. DISCLAIMER OF LIABILITY
+EXCEPT AS EXPRESSLY SET FORTH IN THIS AGREEMENT, NEITHER RECIPIENT
+NOR ANY CONTRIBUTORS SHALL HAVE ANY LIABILITY FOR ANY DIRECT,
+INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING WITHOUT LIMITATION LOST PROFITS), HOWEVER CAUSED AND
+ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+OUT OF THE USE OR DISTRIBUTION OF THE PROGRAM OR THE EXERCISE
+OF ANY RIGHTS GRANTED HEREUNDER, EVEN IF ADVISED OF THE POSSIBILITY
+OF SUCH DAMAGES.
+7. GENERAL
+If any provision of this Agreement is invalid or unenforceable
+under applicable law, it shall not affect the validity or enforceability
+of the remainder of the terms of this Agreement, and without
+further action by the parties hereto, such provision shall be
+reformed to the minimum extent necessary to make such provision
+valid and enforceable.
+If Recipient institutes patent litigation against any entity
+(including a cross-claim or counterclaim in a lawsuit) alleging
+that the Program itself (excluding combinations of the Program
+with other software or hardware) infringes such Recipient's patent(s),
+then such Recipient's rights granted under Section 2(b) shall
+terminate as of the date such litigation is filed.
+All Recipient's rights under this Agreement shall terminate if
+it fails to comply with any of the material terms or conditions
+of this Agreement and does not cure such failure in a reasonable
+period of time after becoming aware of such noncompliance. If
+all Recipient's rights under this Agreement terminate, Recipient
+agrees to cease use and distribution of the Program as soon as
+reasonably practicable. However, Recipient's obligations under
+this Agreement and any licenses granted by Recipient relating
+to the Program shall continue and survive.
+Everyone is permitted to copy and distribute copies of this Agreement,
+but in order to avoid inconsistency the Agreement is copyrighted
+and may only be modified in the following manner. The Agreement
+Steward reserves the right to publish new versions (including
+revisions) of this Agreement from time to time. No one other
+than the Agreement Steward has the right to modify this Agreement.
+The Eclipse Foundation is the initial Agreement Steward. The
+Eclipse Foundation may assign the responsibility to serve as
+the Agreement Steward to a suitable separate entity. Each new
+version of the Agreement will be given a distinguishing version
+number. The Program (including Contributions) may always be distributed
+subject to the version of the Agreement under which it was received.
+In addition, after a new version of the Agreement is published,
+Contributor may elect to distribute the Program (including its
+Contributions) under the new version. Except as expressly stated
+in Sections 2(a) and 2(b) above, Recipient receives no rights
+or licenses to the intellectual property of any Contributor under
+this Agreement, whether expressly, by implication, estoppel or
+otherwise. All rights in the Program not expressly granted under
+this Agreement are reserved.
+This Agreement is governed by the laws of the State of New York
+and the intellectual property laws of the United States of America.
+No party to this Agreement will bring a legal action under this
+Agreement more than one year after the cause of action arose.
+Each party waives its rights to a jury trial in any resulting
+litigation.
+    </license>
+    <!-- <url> -->
+    <!--     <update label="JCrypTool.org" url="https://www.cryptool.org/jct/update"/> -->
+    <!-- </url> -->
+    <!--
+    <plugin 
+    id="org.jcryptool.core.splitpackages" download-size="0" install-size="0" version="1.0.8.27-20230130" unpack="false">
+</plugin>
+	-->
+    <plugin id="org.jcryptool.core.nl" download-size="845" install-size="923" version="1.0.9" fragment="true" unpack="false">
+    </plugin>
+    <plugin id="bcprov" download-size="11009" install-size="21217" version="1.72.0"/>
+    <plugin id="org.jcryptool.core.help" download-size="21685" install-size="46227" version="1.0.9" unpack="false"/>
+    <plugin id="org.jcryptool.core.logging" download-size="23" install-size="53" version="1.0.9" unpack="false"/>
+    <plugin id="org.jcryptool.core.operations" download-size="134" install-size="294" version="1.0.9" unpack="false"> </plugin>
+    <plugin id="org.jcryptool.core.views" download-size="74" install-size="161" version="1.0.9" unpack="false"/>
+    <plugin id="org.jcryptool.core" download-size="281" install-size="903" version="1.0.9" unpack="false"/>
+    <plugin id="org.jcryptool.core.util" download-size="111" install-size="181" version="1.0.9" unpack="false"/>
+    <plugin id="org.jcryptool.core.cryptosystem" download-size="19" install-size="38" version="1.0.9" unpack="false">
+    </plugin>
+    <plugin id="org.jcryptool.functionlistgen" download-size="17" install-size="60" version="1.0.9" unpack="false"> </plugin>
+    <plugin id="org.jcryptool.thirdparty.m2bundle.jaxb" download-size="1519" install-size="1695" version="0.0.1" unpack="false"/>
+    <plugin id="org.jcryptool.core.introduction" download-size="3007" install-size="3230" version="1.0.9" unpack="false">
+    </plugin>
+    <plugin id="net.sourceforge.javahexeditor" download-size="331" install-size="548" version="1.0.9" unpack="false"> </plugin>
+    <plugin id="org.eclipse.ui.views" download-size="107" install-size="189" version="3.11.300.v20221024-2137"/>
+    <plugin id="org.eclipse.ui.ide" download-size="2471" install-size="4792" version="3.20.0.v20221027-2208"/>
+    <plugin id="org.eclipse.ui.navigator" download-size="424" install-size="877" version="3.10.400.v20221024-2137"/>
+    <plugin id="org.eclipse.e4.ui.ide" download-size="13" install-size="17" version="3.16.200.v20221024-2137"/>
+    <plugin id="org.eclipse.debug.core" download-size="400" install-size="816" version="3.20.0.v20220811-0741"/>
+    <plugin id="org.eclipse.ui.editors" download-size="620" install-size="1346" version="3.14.400.v20220730-1844"/>
+    <plugin id="org.eclipse.core.filebuffers" download-size="115" install-size="245" version="3.7.200.v20220202-1008"/>
+    <plugin id="bcpkix" download-size="866" install-size="1784" version="1.68.0" unpack="false"/>
+    <plugin id="org.apache.commons.codec" download-size="370" install-size="703" version="1.14.0.v20221112-0806" unpack="false"/>
+    <!-- <plugin id="org.jcryptool.bci" download-size="0" install-size="0" version="0.0.0" unpack="false"/> -->
+    <plugin id="org.jcryptool.core.splitpackages" download-size="16" install-size="21" version="1.0.9" unpack="false">
+    </plugin>
+    <plugin id="com.diffplug.durian.collect" download-size="1184" install-size="2815" version="1.2.0" unpack="false"/>
+    <plugin id="com.diffplug.durian.concurrent" download-size="263" install-size="548" version="1.2.0" unpack="false"/>
+    <plugin id="com.diffplug.durian.core" download-size="335" install-size="624" version="1.2.0" unpack="false"/>
+    <plugin id="com.diffplug.durian.io" download-size="182" install-size="335" version="1.2.0" unpack="false"/>
+    <plugin id="com.diffplug.durian.reflect" download-size="100" install-size="214" version="1.2.0" unpack="false"/>
+    <plugin id="com.diffplug.durian.rx" download-size="67" install-size="155" version="3.0.0" unpack="false"/>
+    <plugin id="com.diffplug.durian.swt" download-size="189" install-size="428" version="3.3.1" unpack="false"/>
+    <plugin id="com.google.gson" download-size="234" install-size="457" version="2.8.6" unpack="false"/>
+    <plugin id="com.google.guava" download-size="2676" install-size="5856" version="26.0.0.jre" unpack="false"/>
+    <plugin id="com.google.j2objc.annotations" download-size="9" install-size="10" version="1.1.0" unpack="false"/>
+    <plugin id="com.sun.activation.jakarta.activation" download-size="66" install-size="117" version="1.2.2" unpack="false"/>
+    <plugin id="io.reactivex.rxjava2.rxjava" download-size="1881" install-size="4077" version="2.0.0" unpack="false"/>
+    <plugin id="org.checkerframework.checker-qual" download-size="194" install-size="247" version="2.5.2" unpack="false"/>
+    <plugin 
+    id="org.codehaus.mojo.animal-sniffer-annotations" download-size="3" install-size="3" version="1.14.0" unpack="false">
+</plugin>
+    <plugin id="org.functionaljava" download-size="1844" install-size="3468" version="4.8.1" unpack="false"/>
+    <plugin id="org.immutables.value" download-size="2891" install-size="6892" version="2.8.2" unpack="false"/>
+    <plugin 
+    id="org.jcryptool.thirdparty.m2bundle.durian-swt-os" download-size="12" install-size="14" version="0.0.1" unpack="false">
+</plugin>
+    <plugin 
+    id="org.jcryptool.thirdparty.m2bundle.durian-swt" download-size="2" install-size="4" version="0.0.1" unpack="false">
+</plugin>
+    <plugin id="org.reactivestreams.reactive-streams" download-size="1" install-size="1" version="1.0.0.release" unpack="false"/>
+    <!-- <plugin id="org.jcryptool.visual.rsaelgamal" download-size="0" install-size="0" version="0.0.0" unpack="false"/> -->
+    <!-- seems the run config likes these plugins, but by test they are not really necessary
+	<plugin id="org.eclipse.equinox.region" download-size="0" install-size="0" version="0.0.0"/>
+	<plugin id="org.eclipse.core.net.linux.x86_64" download-size="0" install-size="0" version="0.0.0"/>
+	<plugin id="org.eclipse.ecf.provider.filetransfer.ssl" download-size="0" install-size="0" version="0.0.0"/>
+	<plugin id="org.eclipse.ecf.ssl" download-size="0" install-size="0" version="0.0.0"/>
+	<plugin id="org.eclipse.equinox.transforms.hook" download-size="0" install-size="0" version="0.0.0"/>
+	<plugin id="org.eclipse.equinox.weaving.hook" download-size="0" install-size="0" version="0.0.0"/>
+    <plugin id="org.eclipse.core.filesystem.linux.x86_64" download-size="0" install-size="0" version="0.0.0"/> 
+    -->
+</feature>
